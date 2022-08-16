@@ -1,0 +1,18 @@
+.message {
+  display: block;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    rgba(248, 183, 53, 1) 0%,
+    rgba(248, 183, 53, 1) 25%,
+    rgba(243, 130, 24, 1) 25%,
+    rgba(243, 130, 24, 1) 50%,
+    rgba(248, 183, 53, 1) 50%,
+    rgba(248, 183, 53, 1) 75%,
+    rgba(243, 130, 24, 1) 75%,
+    rgba(243, 130, 24, 1) 100%
+  );
+}

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import styles from './Statistics.module.css';
 
 export const Statistics = ({
   good,
@@ -9,14 +10,18 @@ export const Statistics = ({
 }) => {
   return (
     <>
-      <p>Good: {good}</p>
-      <p>Neutral: {neutral}</p>
-      <p>Bad: {bad}</p>
+      <div className={styles.statistics}>
+        <p className={styles.statItem}>Good: {good}</p>
+        <p className={styles.statItem}>Neutral: {neutral}</p>
+        <p className={styles.statItem}>Bad: {bad}</p>
+      </div>
       {total > 0 && (
-        <>
-          <p>Total: {total}</p>
-          <p>Positive feedback: {positivePercentage} %</p>
-        </>
+        <div className={styles.total}>
+          <p className={styles.totalItem}>Total: {total}</p>
+          <p className={styles.totalItem}>
+            Positive feedback: {positivePercentage} %
+          </p>
+        </div>
       )}
     </>
   );

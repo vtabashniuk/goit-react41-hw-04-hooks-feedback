@@ -1,0 +1,42 @@
+.statistics {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.statItem {
+  justify-self: center;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #561217;
+}
+
+.total {
+  display: grid;
+  padding: 10px;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  background: linear-gradient(
+    135deg,
+    rgba(248, 183, 53, 1) 0%,
+    rgba(248, 183, 53, 1) 25%,
+    rgba(243, 130, 24, 1) 25%,
+    rgba(243, 130, 24, 1) 50%,
+    rgba(248, 183, 53, 1) 50%,
+    rgba(248, 183, 53, 1) 75%,
+    rgba(243, 130, 24, 1) 75%,
+    rgba(243, 130, 24, 1) 100%
+  );
+}
+
+.totalItem {
+  justify-self: start;
+  margin: 0 0 0 10px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #561217;
+}
