@@ -1,0 +1,1 @@
+export const LABELS = ['good', 'neutral', 'bad'];
